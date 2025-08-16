@@ -46,12 +46,13 @@ function Navbar() {
     <li className="link">
       <a href="#">Reviews</a>
     </li>
+     {/*<li><p>welcome, Gabby</p></li>*/}
     {/* List item for the 'Sign Up' link with a button */}
-    <li className="link">
+   <li className="link">
     <Link to="/signup">
         <button className="btn1">Sign Up</button>
         </Link>
-      </li>
+    </li> 
     {/* List item for the 'Login' link with a button */}
     <li className="link">
     <Link to="/login">
