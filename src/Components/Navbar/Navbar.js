@@ -36,7 +36,7 @@ function Navbar() {
     </li>
     {/* List item for the 'Appointments' link */}
     <li className="link">
-      <Link to="/instant-consultation">Appointments</Link>
+      <Link to="/finddocsearch">Appointments</Link>
     </li>
     {/* List item for the 'Health Blog' link */}
     <li className="link">
