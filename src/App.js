@@ -7,6 +7,7 @@ import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation';
 import BookingConsultation from './Components/BookingConsultation';
+import Notification from './Components/Notification/Notification';
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+       <Notification/>
       <Routes>
       <Route path="/" element={<Landing_Page />} />
       <Route path="/signup" element={<Sign_Up />} />
