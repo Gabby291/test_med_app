@@ -1,0 +1,56 @@
+.profile-card {
+  max-width: 400px;               /* Limit the card width */
+  margin: 20px auto;              /* Center horizontally with margin */
+  padding: 20px;                  /* Inner spacing */
+  background-color: #f5f5f5;      /* Light gray background */
+  border-radius: 8px;             /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: Arial, sans-serif;
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-card b {
+  color: #27358C;                /* Highlight labels */
+}
+
+.profile-card button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color:#27358C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:hover {
+  background-color:#535a85;
+}
+
+.profile-card input[type="text"],
+.profile-card input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.profile-card label {
+  font-weight: bold;
+  color: #27358C;
+  display: block;
+  margin-top: 10px;
+}
