@@ -1,0 +1,64 @@
+.review-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #27358C;
+    border-radius: 8px;
+    background-color: #f9f9ff;
+    box-shadow: 0 2px 8px #353d6d;
+    font-family: Arial, sans-serif;
+  }
+  
+  .review-form-container form > div {
+    margin-bottom: 15px;
+  }
+  
+  .review-form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #4a4a4a;
+  }
+  
+  .review-form-container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .review-form-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .review-form-container button {
+    background-color: #27358C;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-form-container button:hover {
+    background-color: #7179b2;
+  }
+  
+  .submitted-message {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid  #27358C;
+    background-color: #eae6ff;
+    border-radius: 6px;
+    color: #4a4a4a;
+    font-style: italic;
+  }
