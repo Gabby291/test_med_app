@@ -8,6 +8,7 @@ import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation';
 import BookingConsultation from './Components/BookingConsultation';
 import Notification from './Components/Notification/Notification';
+import ReviewForm from './Components/ReviewForm/ReviewForm';
 
 
 
@@ -18,14 +19,14 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-       <Notification/>
+       {/*<Notification/> */}
       <Routes>
       <Route path="/" element={<Landing_Page />} />
       <Route path="/signup" element={<Sign_Up />} />
       <Route path="/login" element={<Login />} />
       <Route path="/instant-consultation" element={<InstantConsultation />} />
       <Route path="/booking-consultation" element={<BookingConsultation />} />  
-      
+      <Route path="/reviews" element={<ReviewForm/>} />
       
     {/* other routes */}
       </Routes>

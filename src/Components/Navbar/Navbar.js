@@ -44,7 +44,7 @@ function Navbar() {
     </li>
     {/* List item for the 'Reviews' link */}
     <li className="link">
-      <a href="#">Reviews</a>
+      <Link to="/reviews">Reviews</Link>
     </li>
      {/*<li><p>welcome, Gabby</p></li>*/}
     {/* List item for the 'Sign Up' link with a button */}
