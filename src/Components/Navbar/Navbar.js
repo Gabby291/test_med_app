@@ -55,7 +55,7 @@ function Navbar() {
     </li> 
     {/* List item for the 'Login' link with a button */}
     <li className="link">
-    <Link to="/profile">
+    <Link to="/login">
         <button className="btn1">Login</button>
       </Link>
     </li>
